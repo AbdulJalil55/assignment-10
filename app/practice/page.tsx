@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button'
-import { Dialog, DialogContent, DialogDescription } from '@/components/ui/dialog'
-import { DialogClose, DialogOverlay, DialogPortal, DialogTitle, DialogTrigger } from '@radix-ui/react-dialog'
+// import { Dialog, DialogContent, DialogDescription } from '@/components/ui/dialog'
+import { Dialog, DialogContent } from '@/components/ui/dialog'
+// import { DialogClose, DialogOverlay, DialogPortal, DialogTitle, DialogTrigger } from '@radix-ui/react-dialog'
+import { DialogClose,  DialogTrigger } from '@radix-ui/react-dialog'
 import React from 'react'
 
 const page = () => {

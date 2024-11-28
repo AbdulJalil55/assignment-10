@@ -1,1 +1,28 @@
 shadcn/ui.
+
+How to configure Github and push your codes:
+
+1- git init
+2- git config user.email "XXXXXXXXXX" -g
+3- git add .
+4- git commit -m "Project#X completed"
+5- git branch -M main
+6- git remote add origin https://github.com/AbdulJalil55/assignment-10.git
+7- git push -u origin main
+
+
+create mode 100644 tsconfig.json
+PS D:\New folder\class.10thursday> git push -u origin main 
+info: please complete authentication in your browser...
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (39/39), done.
+Writing objects: 100% (48/48), 200.55 KiB | 7.71 MiB/s, done.
+Total 48 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/AbdulJalil55/assignment-10.git
+To https://github.com/abduljalil55/assignment-10
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
